@@ -40,3 +40,10 @@
 .read-the-docs {
   color: #888;
 }
+
+.datos-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+}

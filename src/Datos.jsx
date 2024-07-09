@@ -1,11 +1,12 @@
 function Datos(props){
     return(
-        <div>
+        <div className="datos-container">
             {
-              props.alumnos.map((datosAlumnos)=>(
+              props.alumnos.map((datospoke)=>(
                 <div>
-                    <h1>{datosAlumnos.nombre}</h1>
-                    <h1>{datosAlumnos.edad}</h1>
+                    <h1>{datospoke.nombre}</h1>
+                    <h1 src={'assets/partyCancelNarrow.png'}>{datospoke.tipo}</h1>
+                    <img src={datospoke.imagen}></img>
                 </div>    
 
               ))     
